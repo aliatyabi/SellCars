@@ -15,7 +15,7 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - mongodata:var/lib/mongodb/data
+      - mongodata:/var/lib/mongodb/data
 volumes:
   pgdata:
   mongodata:
