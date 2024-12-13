@@ -5,17 +5,20 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E56A8D8-68E4-4479-A4D5-F7664923084C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{43C1BCA0-C039-412E-96BA-F878EE9A0019}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{43C1BCA0-C039-412E-96BA-F878EE9A0019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{02EA8724-F202-498F-9437-AA0062318F06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchService", "src\SearchService\SearchService.csproj", "{02EA8724-F202-498F-9437-AA0062318F06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{89131692-6C63-42FC-BBE5-0CC7278F14C7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{43C1BCA0-C039-412E-96BA-F878EE9A0019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,6 +29,9 @@ Global
 		{02EA8724-F202-498F-9437-AA0062318F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02EA8724-F202-498F-9437-AA0062318F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02EA8724-F202-498F-9437-AA0062318F06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{43C1BCA0-C039-412E-96BA-F878EE9A0019} = {3E56A8D8-68E4-4479-A4D5-F7664923084C}
