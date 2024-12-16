@@ -17,6 +17,9 @@ services:
     volumes:
       - /var/lib/mongodb/data
   rabbitmq:
+    #Office
+    # image: rabbitmq:3-management-alpine
+    #Home
     image: rabbitmq:3-management
     ports:
       - 5672:5672

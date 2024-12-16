@@ -17,7 +17,7 @@ namespace AuctionService.Data
         {
             context.Database.Migrate();
 
-            if(context.Auctions.Any())
+            if (context.Auctions.Any())
             {
                 Console.WriteLine("Already have data - no need to seed");
 
